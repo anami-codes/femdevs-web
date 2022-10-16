@@ -490,7 +490,13 @@ progress {
   display: none !important;
 }
 
-.lead {
+.lead-justify {
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-align: justify;
+}
+
+.lead-center {
   font-size: 1.25rem;
   font-weight: 300;
   text-align: center;
@@ -11360,6 +11366,8 @@ html {
 .btn-xl {
   padding: 1rem 1.75rem;
   font-size: 1.25rem;
+  height: 100%;
+  width: 100%;
 }
 
 .btn-social {
@@ -11536,6 +11544,10 @@ html {
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.contact-area {
+  width: 75%;
 }
 
 .portfolio .portfolio-item {
