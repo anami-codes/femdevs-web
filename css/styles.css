@@ -11424,6 +11424,14 @@ html {
   width: 100%;
 }
 
+.btn-m {
+  padding: 1rem 1.75rem;
+  font-size: 1.25rem;
+  height: 100%;
+  width: 50%;
+  min-width: 400px;
+}
+
 .btn-social {
   border-radius: 100%;
   display: inline-flex;
