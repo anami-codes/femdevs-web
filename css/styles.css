@@ -75,6 +75,7 @@
   --fd-purple: #9A62A1;
   --fd-green: #7BCAB3;
   --fd-yellow: #EEEFB1;
+  --fd-black: #311f33;
 
   --fd-white-rgb: rgb(252, 252, 241);
   --fd-light-pink-rgb: rgb(245, 232, 243);
@@ -86,6 +87,7 @@
   --fd-purple-rgb: rgb(154, 98, 161);
   --fd-green-rgb: rgb(123, 202, 179);
   --fd-yellow-rgb: rgb(238, 239, 177);
+  --fd-black-rgb: rgb(49, 31, 51);
 }
 
 *,
@@ -3502,7 +3504,7 @@ textarea.form-control-lg {
 }
 
 .btn-solid-light {
-  color: var(--fd-dark-lilac);
+  color: var(--fd-black);
   background-color: var(--fd-light-pink);
   border-color: var(--fd-dark-lilac);
   border-radius: 5px;
@@ -3557,7 +3559,7 @@ textarea.form-control-lg {
 }
 
 .btn-solid-dark {
-  color: var(--fd-white);
+  color: var(--fd-black);
   background-color: var(--fd-opaque-lilac);
   border-color: var(--fd-dark-lilac);
   border-radius: 5px;
@@ -7972,7 +7974,7 @@ textarea.form-control-lg {
   background-repeat: repeat-x;
   background-position: center;
   font-family: 'Sanseriffic';
-  color: var(--fd-white);
+  color: var(--fd-black);
 }
 
 .bg-lilac-grid {
@@ -7981,11 +7983,11 @@ textarea.form-control-lg {
   background-repeat: repeat;
   background-position: top;
   font-family: 'Sanseriffic';
-  color: var(--fd-white);
+  color: var(--fd-black);
 }
 
 .bg-lilac-grid h2 {
-  color: var(--fd-white);
+  color: var(--fd-black);
 }
 
 .bg-lilac-grid hr {
@@ -7999,11 +8001,11 @@ textarea.form-control-lg {
   background-repeat: repeat;
   background-position: top;
   font-family: 'Sanseriffic';
-  color: var(--fd-purple);
+  color: var(--fd-black);
 }
 
 .bg-pink-grid h2 {
-  color: var(--fd-purple);
+  color: var(--fd-black);
 }
 
 .portfolio-font {
@@ -11789,7 +11791,7 @@ html {
 }
 
 .team-name {
-  color: var(--fd-bubblegum-pink);
+  color: var(--fd-black);
   font-size: 1.3rem;
   letter-spacing: 0.05rem;
   font-weight: 600;
@@ -11798,7 +11800,7 @@ html {
 }
 
 .team-title {
-  color: var(--fd-dark-lilac);
+  color: var(--fd-black);
   font-size: 1.3rem;
   letter-spacing: 0.05rem;
   font-weight: 400;
@@ -11806,7 +11808,7 @@ html {
 }
 
 .team-description {
-  color: var(--fd-dark-lilac);
+  color: var(--fd-black);
   font-size: 1.1rem;
   letter-spacing: 0.02rem;
   font-weight: 300;
@@ -11838,7 +11840,7 @@ html {
 }
 
 .support-name {
-  color: var(--fd-bubblegum-pink);
+  color: var(--fd-black);
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
   font-weight: 400;
@@ -11847,7 +11849,7 @@ html {
 }
 
 .support-title {
-  color: var(--fd-dark-lilac);
+  color: var(--fd-black);
   font-size: 1.1rem;
   letter-spacing: 0.05rem;
   font-weight: 400;
