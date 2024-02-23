@@ -11571,9 +11571,15 @@ html {
   font-size: 1.25rem;
   letter-spacing: 0.02rem;
   height: 100%;
-  width: 50%;
   max-width: 420px;
   min-width: 264px;
+}
+
+@media (max-width: 450px) {
+  .btn-xl {
+    padding: 1rem 1rem;
+    width: 75%;
+  }
 }
 
 .btn-m {
@@ -11724,6 +11730,7 @@ html {
   }
 }
 
+/*
 .sponsor-btn img:first-child {
   display: block;  
 }
@@ -11737,6 +11744,7 @@ html {
 .sponsor-btn:hover img:first-child {
   display: none;  
 }
+*/
 
 .sponsor-container {
   flex: 0 0 auto;
@@ -11760,10 +11768,12 @@ html {
   display: block;
   margin: 5px;
 
+  /*
   background-color: var(--fd-btn-border);
   border: 0.125rem solid var(--fd-btn-border-dark);
   border-radius: 5px;
   box-shadow: 4px 4px 0px -2px var(--fd-btn-border-dark);
+  */
 }
 
 @media (max-width: 450px) {
@@ -11915,7 +11925,7 @@ html {
 }
 
 .team-name {
-  color: var(--fd-text-accent);
+  color: var(--fd-purple);
   font-size: 1.3rem;
   letter-spacing: 0.05rem;
   font-weight: 500;
@@ -11964,7 +11974,7 @@ html {
 }
 
 .support-name {
-  color: var(--fd-text-accent);
+  color: var(--fd-purple);
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
   font-weight: 500;
@@ -12007,7 +12017,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: var(--fd-green);
+  background-color: var(--fd-yellow);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 0.25;
@@ -12053,6 +12063,45 @@ html {
 .small-section{
   padding: 3rem;
 }
+
+.lang-btn{
+	position:fixed;
+  z-index: 99;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+  font-size: 25px;
+	background-color: var(--fd-btn-border);
+  background-size: cover;
+	color: var(--fd-purple);
+  border-color: var(--fd-btn-border);
+  border-style: solid;
+  border-width: 2px;
+	border-radius: 50px;
+	text-align: center;
+	box-shadow: 2px 2px var(--fd-btn-border);
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 50px;
+    background-color: rgba(154, 98, 161, 0.0);
+  }
+}
+.lang-btn:hover{
+  border-color: var(--fd-btn-border-dark);
+  box-shadow: 2px 2px var(--fd-btn-border-dark);
+
+  &::before {
+    background-color: rgba(154, 98, 161, 0.5);
+  }
+}
+
 
 .float{
 	position:fixed;
