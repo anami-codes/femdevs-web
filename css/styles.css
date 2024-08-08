@@ -7980,9 +7980,9 @@ textarea.form-control-lg {
 }
 
 .bg-gradient-main {
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
-  background-image: url('../assets/img/bg/shapes.svg');
-  background-size: auto 100.1%;
+  background-color: rgb(194, 185, 218) !important;
+  background-image: url('../assets/img/bg/shapes.webp');
+  background-size: auto 101%;
   background-repeat: repeat-x;
   background-position: center;
   font-family: 'Sanseriffic';
@@ -7990,7 +7990,7 @@ textarea.form-control-lg {
 }
 
 .bg-lilac-grid {
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgb(194, 185, 218) !important;
   background-image: url('../assets/img/bg/grid-lilac.svg');
   background-repeat: repeat;
   background-position: top;
@@ -8008,7 +8008,7 @@ textarea.form-control-lg {
 }
 
 .bg-pink-grid {
-  background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgb(232, 201, 223) !important;
   background-image: url('../assets/img/bg/grid-pink.svg');
   background-repeat: repeat;
   background-position: top;
