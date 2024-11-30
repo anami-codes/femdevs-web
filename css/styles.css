@@ -7991,11 +7991,11 @@ textarea.form-control-lg {
 
 .bg-lilac-grid {
   background-color: rgb(194, 185, 218) !important;
-  background-image: url('../assets/img/bg/grid-lilac.svg');
+  background-image: url('../assets/img/bg/grid-lilac.webp');
   background-repeat: repeat;
   background-position: top;
   font-family: 'Quicksand';
-  color: var(--fd-white);
+  color: var(--fd-text-violet);
 }
 
 .bg-lilac-grid h2, h3 {
@@ -8003,13 +8003,13 @@ textarea.form-control-lg {
 }
 
 .bg-lilac-grid hr {
-  background-color: var(--fd-white);
+  background-color: var(--fd-text-violet);
   opacity: 50%;
 }
 
 .bg-pink-grid {
   background-color: rgb(232, 201, 223) !important;
-  background-image: url('../assets/img/bg/grid-pink.svg');
+  background-image: url('../assets/img/bg/grid-pink.webp');
   background-repeat: repeat;
   background-position: top;
   font-family: 'Quicksand';
@@ -11631,8 +11631,6 @@ html {
 
 #mainNav {
   font-family: 'Royce-Semibold';
-  /* "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
-  font-weight: 700;
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -11758,9 +11756,9 @@ html {
 
   color: var(--fd-purple);
   background-color: var(--fd-white);
-  border: 0.125rem solid var(--fd-dark-lilac);
+  border: 0.125rem solid var(--fd-purple);
   border-radius: 5px;
-  box-shadow: 4px 4px 0px -2px var(--fd-dark-lilac);
+  box-shadow: 4px 4px 0px -2px var(--fd-purple);
 }
 
 .sponsor-img:hover {
