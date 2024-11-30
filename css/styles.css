@@ -740,8 +740,6 @@ progress {
   }
 }
 .row {
-  --bs-gutter-x: 1.5rem;
-  --bs-gutter-y: 0;
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--bs-gutter-y));
@@ -11777,16 +11775,13 @@ html {
 @media (max-width: 450px) {
   .sponsor-container {
     flex: 0 0 auto;
-    width: 150px;
   }
 
   .sponsor-img {
-    height: 124px;
     display: block;
     margin: 13px;
   }
   .sponsor-img:hover {
-    width: 140px;
     display: block;
     margin: 5px;
   }
@@ -11890,6 +11885,7 @@ html {
 }
 
 .big-team-box {
+  margin: 15px;
   padding: 10px;
   height: 100%;
   background-color: var(--fd-white);
@@ -11955,6 +11951,10 @@ html {
   max-width: 0.5rem;
   border-radius: 0.5rem;
   overflow: hidden;
+}
+
+.support-item {
+  margin: 15px;
 }
 
 .support-img {
