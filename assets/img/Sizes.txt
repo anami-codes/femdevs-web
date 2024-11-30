@@ -1,7 +1,0 @@
-Logo: 600px
-Team pictures: 300px
-Events: Small 400px - Big 500px
-Sponsor logo: 200px
-Partner logo: 200px
-
-Background: 1080px
