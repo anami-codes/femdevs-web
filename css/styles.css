@@ -565,6 +565,11 @@ progress {
   font-family: 'Quicksand';
 }
 
+.center {
+  text-align: center;
+  font-family: 'Quicksand';
+}
+
 .display-1 {
   font-size: calc(1.625rem + 4.5vw);
   font-weight: 300;
